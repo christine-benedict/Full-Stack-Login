@@ -1,0 +1,9 @@
+<h2>Please Log In</h2>
+<hr />
+<h5><%=cookies[:exists]%></h5>
+<br />
+<form action='login_submit' method='get'>
+  <input type="text" name="user_name" placeholder ="User Name" />
+  <input type="password" name="password"  />
+  <input type="submit" value="Log In" />
+</form>
